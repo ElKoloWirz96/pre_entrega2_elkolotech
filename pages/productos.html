@@ -4,50 +4,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElKoloTech - Nuestros productos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estiles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
-        <nav class="NavegacionIzquierda">
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
-                </li>
-                <li>
-                    <a href="#">Productos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark colorNavegacion">
+            <div class="container-fluid">
+                <a id="logo" href="../index.html">
+                    <img src="../assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse NavegacionIzquierda" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 NavItemsIzq">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/arma-tu-pc.html">Arma Tu PC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="../pages/ofertas.html">Ofertas</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" id="busqueda">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button type="submit">Buscar</button>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <div id="logo">
-            <a href="../index.html">
-                <img src="../assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
-            </a>
-            
-        </div>
-        <nav class="NavegacionDerecha">
-            <ul>
-
-                <li>
-                    <a href="../pages/arma-tu-pc.html">Arma Tu PC</a>
-                </li>
-                <li>
-                    <a href="../pages/ofertas.html">Ofertas</a>
-                </li>
-            </ul>
-        </nav>
-        <div id="busqueda">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="submit">Buscar</button>
-        </div>
     </header>
+
+      <aside>
+        <section class="navegacionLateral">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
+                <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" aria-current="page">
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="gabinetes"/></svg>
+                        Gabinetes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="placasDeVideo"/></svg>
+                        Placas de video
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
+                        Monitor, mouse
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
+                    Auriculares
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Memoria RAM
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                        Discos SSD y HDD
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Motherboards
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Fuentes
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Procesadores
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Camaras
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    WiFi
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
+                    Microfonos
+                    </a>
+                </li>
+                </ul>
+            </div>
+        </section>
+      </aside>
         
     <main>
-
+        <section class="productos">
+            <img class="productoImagen" src="" alt="">
+            <div class="productoDetalles">
+                <h3 class="productoTitulo"></h3>
+                <p class="productoPrecio"></p>
+                <button class="productoAgregar" id="">Agregar</button>
+            </div>
+        </section>
     </main>
     
     <footer>
@@ -64,8 +151,14 @@
                   <p>Soporte técnico: soporte@uranostream.com</p>
                   <p>Ventas telefónicas: 11-2776-6686</p>
                   <p>Soporte Tecnico: 11-7152-1195</p>
+                  <a class="IconosRedes" href="https://chat.whatsapp.com/DhxZs3Cr1qG2hUYiBBe4g2"><i class="bi bi-whatsapp"></i></a>
+                    <a class="IconosRedes" href="https://www.instagram.com/uranostream/"><i class="bi bi-instagram"></i></a>
+                    <a class="IconosRedes" href="https://www.facebook.com/search/top?q=urano%20stream"><i class="bi bi-facebook"></i></a>
+                    <a class="IconosRedes" href="https://www.twitch.tv/uranostreamoficial"><i class="bi bi-twitch"></i></a>
+                    <a class="IconosRedes" href="https://twitter.com/StreamUrano"><i class="bi bi-twitter-x"></i></a>
               </div>
       </footer>
 
+      <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
 </body>
 </html>
