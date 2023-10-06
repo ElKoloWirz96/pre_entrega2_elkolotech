@@ -76,11 +76,10 @@ nav ul li {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    
-   
-font-size: 2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 1rem;
 }
 
 /* Estilos para los párrafos en Raleway */
@@ -99,6 +98,7 @@ text-align: center;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 /* Estilos para el contenedor de las computadoras armadas */
@@ -499,6 +499,7 @@ footer {
 
 .InformacionDelElKoloTech .TextoLadoDerecho {
     text-align: justify;
+    margin-top: 7rem;
 }
 
 /* Estilos para el título */
@@ -525,10 +526,12 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
+    margin-top: 1rem;
 }
 
 .mapa {
     flex: 1;
+    margin-top: 1rem;
 }
 
 .ContactosIzquierdos {
@@ -554,3 +557,17 @@ footer {
     font-size: 24px;
     text-decoration: none;
 }
+
+/* Estilos para el formulario */
+
+.FormularioInformativo{
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Grilla para la pagina de productos */
+
