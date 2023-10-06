@@ -4,49 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElKoloTech - Ofertas imperdibles</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estiles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
-        <nav class="NavegacionIzquierda">
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
-                </li>
-                <li>
-                    <a href="../pages/productos.html">Productos</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark colorNavegacion">
+            <div class="container-fluid">
+                <a id="logo" href="../index.html">
+                    <img src="../assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse NavegacionIzquierda" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 NavItemsIzq">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/arma-tu-pc.html">Arma Tu PC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Ofertas</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex" id="busqueda">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button type="submit">Buscar</button>
+                    </div>
+                </div>
+            </div>
         </nav>
-        <div id="logo">
-            <a href="../index.html">
-                <img src="../assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
-            </a>
-            
-        </div>
-        <nav class="NavegacionDerecha">
-            <ul>
-                <li>
-                    <a href="../pages/arma-tu-pc.html">Arma Tu PC</a>
-                </li>
-                <li>
-                    <a href="#">Ofertas</a>
-                </li>
-            </ul>
-        </nav>
-        <div id="busqueda">
-            <input type="text" placeholder="Buscar productos...">
-            <button type="submit">Buscar</button>
-        </div>
     </header>
         
     <main>
-
+        <section>
+            <div class="ContenedorPcArmadas">
+                <div class="Promo1PcArmadas">
+                    <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300.webp" alt="PCArmada1">
+                    <p class="InformacionPCPromo">Pc Armada RYZEN 3 3200G | A520M | RAM 16 GB 3200MHZ</p> 
+                    <p class="InformacionPCPromo">240Gb Ssd | 600W | F300 BLANCO | $301052</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+                <div>
+                    <img class="ImagenPromoPC1" src="./assets/Image/D_NQ_NP_844871-MLA70193190138_062023-O.webp" alt="PCArmada2">
+                    <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A320</p>
+                    <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | $345692</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+                <div>
+                    <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
+                    <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
+                    <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+                <div>
+                    <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
+                    <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
+                    <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+                <div>
+                    <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
+                    <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
+                    <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+                <div>
+                    <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
+                    <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
+                    <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
+                    <button>Seleccionar opciones</button>
+                </div>
+            </div>
+        </section>
     </main>
     
     <footer>
@@ -63,8 +103,14 @@
                   <p>Soporte técnico: soporte@uranostream.com</p>
                   <p>Ventas telefónicas: 11-2776-6686</p>
                   <p>Soporte Tecnico: 11-7152-1195</p>
+                  <a class="IconosRedes" href="https://chat.whatsapp.com/DhxZs3Cr1qG2hUYiBBe4g2"><i class="bi bi-whatsapp"></i></a>
+                    <a class="IconosRedes" href="https://www.instagram.com/uranostream/"><i class="bi bi-instagram"></i></a>
+                    <a class="IconosRedes" href="https://www.facebook.com/search/top?q=urano%20stream"><i class="bi bi-facebook"></i></a>
+                    <a class="IconosRedes" href="https://www.twitch.tv/uranostreamoficial"><i class="bi bi-twitch"></i></a>
+                    <a class="IconosRedes" href="https://twitter.com/StreamUrano"><i class="bi bi-twitter-x"></i></a>
               </div>
       </footer>
 
+      <link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
 </body>
 </html>

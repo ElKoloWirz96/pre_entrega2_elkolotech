@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700 & family= Open+Sans:ital,wght@ 0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800 & family= Raleway:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800 & display=swap');
 
-
-
 /* Estilos para el header */
 
-header {
+.colorNavegacion {
     background: #000000;
     background: -moz-linear-gradient(izquierda, #000000 0%, #0013de 50%, #000000 100%);
     background: -webkit-linear-gradient(izquierda, #000000 0%, #0013de 50%, #000000 100%);
@@ -17,7 +15,7 @@ header {
 
 #logo img {
     max-width: 100%;
-    height: 6.5rem;
+    height: 4rem;
 }
 
 nav ul {
@@ -28,13 +26,11 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-left: 5rem;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+.color-navbar{
+    color:white
 }
 
 /* Estilos para la barra de búsqueda */
@@ -43,6 +39,7 @@ nav ul li a {
     padding: 5px;
     border: none;
     border-radius: 5px;
+    margin-right: 4px;
 }
 
 #busqueda button[type="submit"] {
@@ -61,6 +58,7 @@ nav ul li a {
     background: -moz-linear-gradient(left, #000000 0%, #2b3cf9 50%, #000000 100%);
     background: -webkit-linear-gradient(left, #000000 0%, #2b3dff 50%, #000000 100%);
     background: linear-gradient(to right, #000000 0%, #2b3cf7 50%, #000000 100%);
+    margin-top: 5rem;
 }
 
 .imagenPrincipal {
@@ -78,11 +76,10 @@ nav ul li a {
 
 h1 {
     font-family: 'Lato', sans-serif;
-    
-   
-font-size: 2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 1rem;
 }
 
 /* Estilos para los párrafos en Raleway */
@@ -101,6 +98,7 @@ text-align: center;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 /* Estilos para el contenedor de las computadoras armadas */
@@ -501,6 +499,7 @@ footer {
 
 .InformacionDelElKoloTech .TextoLadoDerecho {
     text-align: justify;
+    margin-top: 7rem;
 }
 
 /* Estilos para el título */
@@ -527,26 +526,48 @@ footer {
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
+    margin-top: 1rem;
 }
 
 .mapa {
     flex: 1;
+    margin-top: 1rem;
 }
 
 .ContactosIzquierdos {
     flex: 1;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* Estilos para el contenedor de los iconos de redes sociales */
 .IconosRedesContainer {
-    display: flex; /* Utilizamos flexbox para alinear los iconos en una fila */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Estilos para cada icono de red social */
 .IconosRedes {
-    margin-right: 10px; /* Espacio entre los iconos (ajusta según sea necesario) */
-    color: #007bff; /* Color de los iconos (ajusta según sea necesario) */
-    font-size: 24px; /* Tamaño de fuente de los iconos (ajusta según sea necesario) */
-    text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+    margin: 0 5px;
+    color: #007bff;
+    font-size: 24px;
+    text-decoration: none;
 }
+
+/* Estilos para el formulario */
+
+.FormularioInformativo{
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Grilla para la pagina de productos */
+
