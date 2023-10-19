@@ -12,72 +12,72 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark colorNavegacion">
-        <div class="container-fluid">
-            <a id="logo" href="./index.html">
-                <img src="./assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse NavegacionIzquierda" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 NavItemsIzq">
-                    <li class="nav-item">
+    <div class="container-fluid">
+        <a id="logo" href="./index.html">
+            <img src="./assets/Image/elkolotech.logo.degrade.en.azul.jpeg" alt="ElKoloTech">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse NavegacionIzquierda" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 NavItemsIzq">
+                <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/arma-tu-pc.html">Arma Tu PC</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
-                    </li>
-                </ul>
-                <div class="d-flex" id="busqueda">
-                    <input type="text" placeholder="Buscar productos...">
-                    <button type="submit">Buscar</button>
-                </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/arma-tu-pc.html">Arma Tu PC</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./pages/ofertas.html">Ofertas</a>
+                </li>
+            </ul>
+            <div class="d-flex" id="busqueda">
+                <input type="text" placeholder="Buscar productos...">
+                <button type="submit">Buscar</button>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
 </header>
 <main>
     <section>
         <div class="contornoImagenPrincipal">
             <img class="imagenPrincipal" src="./assets/Image/New-logo-uranoPNG.png" alt="ElKoloTech">
             </div>       
-            <h1>Pc armadas</h1>
+            <h1 class="TituloPrincipal">Pc armadas</h1>
             <p>Ofertas semanales</p>
             <p>En esta sección encontraras Pc’s Armadas de gran potencia y rendimiento que cambian todas las semanas.</p>
         </div>
         <div class="ContenedorPcArmadas">
-            <div class="Promo1PcArmadas">
-                <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300.webp" alt="PCArmada1">
-                <p class="InformacionPCPromo">Pc Armada RYZEN 3 3200G | A520M | RAM 16 GB 3200MHZ</p> 
-                <p class="InformacionPCPromo">240Gb Ssd | 600W | F300 BLANCO | $301052</p>
+            <div class="Promo1PcArmadas card img-thumbnail" style="width: 18rem;">
+                <img class="ImagenPromoPC1 card-img-top" src="./assets/Image/Plantilla-Gabinete-F300.webp" alt="PCArmada1">
+                <p class="card-text InformacionPCPromo">Pc Armada RYZEN 3 3200G | A520M | RAM 16 GB 3200MHZ</p> 
+                <p class="card-text InformacionPCPromo">240Gb Ssd | 600W | F300 BLANCO | $301052</p>
                 <button>Seleccionar opciones</button>
             </div>
-            <div>
-                <img class="ImagenPromoPC1" src="./assets/Image/D_NQ_NP_844871-MLA70193190138_062023-O.webp" alt="PCArmada2">
-                <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A320</p>
-                <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | $345692</p>
+            <div class="card" style="width: 18rem;">
+                <img class="ImagenPromoPC1 card img-thumbnail" src="./assets/Image/D_NQ_NP_844871-MLA70193190138_062023-O.webp" alt="PCArmada2">
+                <p class="card-text InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A320</p>
+                <p class="card-text InformacionPCPromo">240Gb Ssd | Fuente 500W | $345692</p>
                 <button>Seleccionar opciones</button>
             </div>
-            <div>
-                <img class="ImagenPromoPC1" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
-                <p class="InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
-                <p class="InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
+            <div class="card" style="width: 18rem;">
+                <img class="ImagenPromoPC1 card img-thumbnail" src="./assets/Image/Plantilla-Gabinete-F300 (1).webp" alt="PCArmada3">
+                <p class="card-text InformacionPCPromo">Pc Armada Ryzen 5 4600G | 16Gb Ram | A520m</p>
+                <p class="card-text InformacionPCPromo">240Gb Ssd | Fuente 500W | 366372</p>
                 <button>Seleccionar opciones</button>
             </div>                     
         </div>
     </section>     
     <section>
         <div class="centrar-contenido">
-            <h1>Ofertas Imperdibles</h1>
+            <h1 class="TituloPrincipal">Ofertas Imperdibles</h1>
             <p>¡Ganale a la inflación con estos precios!</p>
             <p>¡Pedí tu código de descuento por WhatsApp!</p>
         </div>
@@ -158,6 +158,6 @@
     </div>
 </footer>
 
-<link rel="stylesheet" href="./js/bootstrap.bundle.min.js">
+<script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
