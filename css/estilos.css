@@ -1,0 +1,659 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700 & family= Open+Sans:ital,wght@ 0,300;0,400;0,600;0,800;1,300;1,400;1,600;1,800 & family= Raleway:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el header */
+.colorNavegacion {
+  background: #000000;
+  background: -moz-linear-gradient(izquierda, #000000 0%, #0013de 50%, #000000 100%);
+  background: -webkit-linear-gradient(izquierda, #000000 0%, #0013de 50%, #000000 100%);
+  background: linear-gradient(to right, #000000 0%, #0013de 50%, #000000 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo img {
+  max-width: 100%;
+  height: 4rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 5rem;
+}
+
+.color-navbar {
+  color: white;
+}
+
+/* Estilos para la barra de búsqueda */
+#busqueda input[type=text] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+#busqueda button[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Estilos para la sección de imagen principal */
+.contornoImagenPrincipal {
+  background: #021582;
+  background: -moz-linear-gradient(left, #000000 0%, #2b3cf9 50%, #000000 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #2b3dff 50%, #000000 100%);
+  background: linear-gradient(to right, #000000 0%, #2b3cf7 50%, #000000 100%);
+  margin-top: 5rem;
+}
+
+.imagenPrincipal {
+  max-width: 100%;
+  height: 50rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Estilos para el main*/
+/* Estilos para los títulos en Lato */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Estilos para los párrafos en Raleway */
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Estilos para el contenedor de las computadoras armadas */
+.ContenedorPcArmadas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+/* Estilos para el contenedor de las computadoras armadas */
+.ContenedorPcArmadas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Estilos para cada computadora armada */
+.Promo1PcArmadas {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Estilos para las imágenes */
+.ImagenPromoPC1 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Estilos para el texto de información */
+.InformacionPCPromo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+.Promo1PcArmadas button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Estilos para centrar el contenido */
+.centrar-contenido {
+  text-align: center;
+}
+
+/* Estilos para las tarjetas gráficas */
+.tarjetas-graficas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Estilos para cada tarjeta gráfica */
+.tarjeta {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para las imágenes de las tarjetas gráficas */
+.tarjeta img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el texto informativo de las tarjetas gráficas */
+.TextoInformativoGrafica {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los botones de comprar */
+.tarjeta button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilo para los botones dentro de la sección de productos */
+section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Estilos para los precios y descripciones de productos */
+section p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Estilos para los títulos de secciones */
+section h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los subtítulos de secciones */
+section h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los íconos */
+i {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Estilos para la imagen de soporte técnico */
+.ImagenDelSoporteTecnico {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Estilo para el botón de WhatsApp */
+.BotonWhatshapp {
+  background-color: #25d33f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/*Estilo para el video de armar tu pc*/
+.secciónVideo {
+  position: relative;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Estilos para el texto superpuesto */
+.texto-superpuesto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.BotonArmaTuPc {
+  color: #fff;
+  margin-top: 2 rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+/* Estilos para el main*/
+/* Estilos para los títulos en Lato */
+.TituloPrincipal {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos para los párrafos en Raleway */
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Estilos para el contenedor de las computadoras armadas */
+.ContenedorPcArmadas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+/* Estilos para cada computadora armada */
+.Promo1PcArmadas {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* Estilos para las imágenes */
+.ImagenPromoPC1 {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Estilos para el texto de información */
+.InformacionPCPromo {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+.Promo1PcArmadas button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Estilo para la sección de la imagen principal */
+.contornoImagenPrincipal {
+  background: #021582;
+  background: -moz-linear-gradient(left, #000000 0%, #2b3cf9 50%, #000000 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #2b3dff 50%, #000000 100%);
+  background: linear-gradient(to right, #000000 0%, #2b3cf7 50%, #000000 100%);
+}
+
+.imagenPrincipal {
+  max-width: 100%;
+  height: 50rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+/* Estilos solo para la sección del soporte técnico */
+.soporte-tecnico {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para la imagen en el lado izquierdo */
+.soporte-tecnico .ImagenDelSoporteTecnico {
+  max-width: 50%;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+/* Estilos para el texto en el lado derecho */
+.soporte-tecnico > div {
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+}
+
+/* Estilo para el botón de WhatsApp */
+.soporte-tecnico .BotonWhatshapp {
+  background-color: #25d33f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Estilos para el Footer */
+footer {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  height: 50vh;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+}
+
+.ImagenFooter {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0;
+  margin-top: 0.5rem;
+  width: 100%;
+  position: relative;
+}
+
+/* Estilo para el contenido del lado derecho en el footer */
+.TextoDerecho {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/* Estilo para el contenido del lado izquierdo en el footer */
+.TextoIzquierdo {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  color: rgb(255, 255, 255);
+}
+
+/*Estilos para el HTML de sobre nosotros*/
+/* Estilos para la sección de información de ElKoloTech */
+.InformacionDelElKoloTech {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para la imagen en el lado izquierdo */
+.InformacionDelElKoloTech .ImagenIzquierda {
+  max-width: 100%;
+  height: auto;
+  width: 30%;
+  margin-right: 20px;
+}
+
+/* Estilos para el texto en el lado derecho */
+.InformacionDelElKoloTech .TextoLadoDerecho {
+  text-align: justify;
+  margin-top: 7rem;
+}
+
+/* Estilos para el título */
+.InformacionDelElKoloTech h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos para los párrafos */
+.InformacionDelElKoloTech p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la sección de Contactanos */
+.Contactanos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-top: 1rem;
+}
+
+.mapa {
+  flex: 1;
+  margin-top: 1rem;
+}
+
+.ContactosIzquierdos {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilos para el contenedor de los iconos de redes sociales */
+.IconosRedesContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para cada icono de red social */
+.IconosRedes {
+  margin: 0 5px;
+  color: #007bff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+/* Estilos para el formulario */
+.FormularioInformativo {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Contenedor principal */
+.sobreNosotrosContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Para alinear los elementos en la parte superior */
+}
+
+/* Estilos para el bloque de Instagram */
+.instagramContainer {
+  flex: 1;
+  max-width: 40%;
+  margin-right: 20px;
+}
+
+/* Estilos para el contenedor del formulario */
+.formularioContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 14rem;
+  height: 50%;
+  margin-right: 12rem;
+}
+.formularioContainer .Formulario {
+  margin-top: 2rem;
+}
+.formularioContainer .Usuario {
+  border-radius: 5px;
+}
+.formularioContainer .Email {
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.formularioContainer .RecibirInformacion {
+  margin-top: 1rem;
+}
+.formularioContainer .Enviar {
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+.formularioContainer .Resetear {
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+/* Estilos para el HTML de productos */
+/* Grilla para la pagina de productos */
+.body {
+  display: grid;
+  grid-template-areas: "header" "container" "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  grid-area: header;
+}
+
+.contenedor {
+  grid-area: container;
+  display: grid;
+  grid-template-areas: "aside main";
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.aside {
+  grid-area: aside;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.main {
+  grid-area: main;
+  max-width: 100%;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 19rem;
+  top: 0;
+  justify-items: last baseline;
+}
+
+.contenido {
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+/* Contenido del main con estilo de Flexbox */
+.main > div {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+@media (max-width: 767px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    position: relative;
+    height: auto;
+    overflow-y: visible;
+  }
+}
+.navegacionLateral {
+  margin-top: 6.5rem;
+}
+
+/* Estilos par la parte de arma tu pc */
+.contenedor-arma-tu-pc {
+  margin-top: 5px;
+}
+
+.texto-informativo-arma-tu-pc {
+  top: 5px;
+  right: 20px;
+  color: rgb(0, 0, 0);
+  margin-top: 5rem;
+  text-align: right;
+}
+
+/*# sourceMappingURL=estilos.css.map */

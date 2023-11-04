@@ -202,7 +202,6 @@ text-align: center;
     cursor: pointer;
 }
 
-
 /* Estilos para los botones */
 
 button {
@@ -439,7 +438,6 @@ p {
     margin-top: 1rem;
 }
 
-
 /* Estilos para el Footer */
 
 footer {
@@ -625,6 +623,8 @@ footer {
     }
 }
 
+/* Estilos para el HTML de productos */
+
 /* Grilla para la pagina de productos */
 
 .body {
@@ -643,7 +643,7 @@ footer {
     grid-area: header;
 }
 
-.container {
+.contenedor {
     grid-area: container;
     display: grid;
     grid-template-areas: "aside main";
@@ -691,7 +691,7 @@ footer {
 }
 
 @media (max-width: 767px) {
-    .container {
+    .contenedor {
         grid-template-columns: 1fr;
     }
     .aside {
